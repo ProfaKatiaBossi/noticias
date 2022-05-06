@@ -125,3 +125,48 @@ footer {
 .rf {
 	float:right;
 }
+@media only screen and (max-width:600px) {
+
+aside{
+	display:none;
+}
+img {
+	max-width: 90%;
+	height: auto;
+}
+body,
+#logo,
+#conteudo,
+.principal,
+footer,
+header,
+.caixa,
+.artigo
+{
+	width: 95%;
+
+}
+footer {
+	margin-top:0px;
+	height:0;
+}
+.lf{
+	float:none;
+}
+.rf{
+	float: none;
+}
+nav ul li a {
+	font-size: 10px;
+	line-height: 10px;
+	display: inline-block;
+	padding: 6px 2px;
+	color: #000;
+}
+nav ul li {   
+	height: auto;
+	width: auto;
+	padding: 5px;
+}
+
+}
